@@ -1,5 +1,7 @@
-```
+
 # Image Resizer using OpenCV
+
+## Overview
 
 This Python script resizes an image using the OpenCV library. It reads an image file, resizes it based on a scale percentage, and saves the resized image to a new file.
 
@@ -42,6 +44,10 @@ output = cv2.resize(image, (new_height, new_width))
 cv2.imwrite("new_image.jpeg", output)
 cv2.waitKey(0)
 ```
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details.
 
 ## Notes
 
